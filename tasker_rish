@@ -1,6 +1,6 @@
 #!/system/bin/sh
-BASEDIR=/sdcard
-DEX=/sdcard/.rish.dex
+BASEDIR=/data/data/net.dinglisch.android.taskerm/files
+DEX=/data/data/net.dinglisch.android.taskerm/files/rish.dex
 
 if [ ! -f "$DEX" ]; then
   echo "Cannot find $DEX, please check the tutorial in Shizuku app"

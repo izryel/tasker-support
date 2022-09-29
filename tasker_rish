@@ -1,6 +1,6 @@
 #!/system/bin/sh
 BASEDIR=/sdcard
-DEX=/sdcard/.rish_shizuku.dex
+DEX=/sdcard/.rish.dex
 
 if [ ! -f "$DEX" ]; then
   echo "Cannot find $DEX, please check the tutorial in Shizuku app"
